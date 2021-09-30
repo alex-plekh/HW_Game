@@ -1,0 +1,32 @@
+canvas {
+    background: #e2f9ed;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+}
+
+button {
+    padding: 3px 10px;
+    border: 1px solid #282c34;
+    color: #fafafa;
+    border-radius: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:first-child {
+    background: #108018;
+}
+
+button:nth-child(2) {
+    background: #802825;
+}
